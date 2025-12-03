@@ -20,8 +20,6 @@
     box-sizing: border-box;
     cursor: pointer;
 
-    position: relative;
-
     transition: all 0.5s;
 
     &:hover {
@@ -38,8 +36,6 @@
       font-size: 30px;
       line-height: 1.1;
       color: $black;
-
-      position: absolute;
     }
 
     @for $num from 1 through 31 {
